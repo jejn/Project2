@@ -1,0 +1,121 @@
+/** {
+	border: 1px solid red !important;
+}*/
+* {
+	-webkit-font-smoothing: antialiased;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #eaeaea;
+	font-family: verdana;
+	font-size: 100%;
+	margin-top: 100px;
+}
+h1 {
+	font-size: 120%;
+	font-weight: normal;
+	margin: 0;
+
+}
+h2 {
+	font-size: 120%;
+	font-weight: normal;
+	margin-top: 0;
+}
+h3 {
+	font-size: 100%;
+
+}
+/* Used the "code" CSS from the Udacity website and tweaked it a little
+bit */
+code {
+	color: black;
+	border: solid 1px #dcdcdc;
+	padding: 2px 4px;
+  	font-size: 100%;
+	background-color: #eaeaea;
+	white-space: pre;
+	border-radius: 0;
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+/* Found the linear-gradient at 
+https://css-tricks.com/examples/hrs/ */
+hr {
+	border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+   	display: block;
+   	margin: 40px auto;
+   	width: 100%;
+}
+.headline {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	height: 45px;
+	letter-spacing: 5px;
+	background-color: black;
+	margin: 0;
+	color: white;
+	padding: 14px 20px;
+	font-family: sans-serif;
+	font-weight: normal;
+	white-space: nowrap;
+
+}
+/* Added .empty-box to get the correct position of .lesson-box{} afert I 
+added position: fixed; to .headline{} */
+.empty-box {
+	height: 45px;
+
+}
+.lesson-box {
+	background-color: white;
+	margin: 60px;
+	max-width: 960px;
+	padding: 0;
+	border: 1px solid #d2d2d2;
+	border-radius: 4px;
+	box-shadow: 1px 1px 0.5px 0.5px #d2d2d2;
+
+}
+.lesson-box-title {
+	background-color: #9c9c9c;
+	color: white;
+	letter-spacing: 3.2px;
+	margin: 0;
+	padding: 17px;
+	border-bottom: 1px solid #d2d2d2;
+	height: 55px;
+	border-radius: 4px 4px 0 0;
+	white-space: nowrap;
+}
+.lesson-box-content {
+	background-color: white;
+	margin: 0;
+	padding: 32px 48px;
+	border-radius: 0 0 4px 4px;
+	font-size: 80%;
+	line-height: 180%;
+
+}
+.lesson-box-bottom {
+	margin: 0;
+	height: 45px;
+	padding: 0px 48px;
+	border-radius: 0 0 4px 4px;
+	font-size: 80%;
+	border-top: 1px solid #d2d2d2;
+	text-align: right;
+}
